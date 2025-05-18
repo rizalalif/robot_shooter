@@ -1,0 +1,41 @@
+version: '1'
+
+services:
+  ros2:
+    # command: /bin/bash -c "  && bash"
+    image: osrf/ros:humble-desktop
+    container_name: ros2_humble
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - D:\Robot\ros2\ros2_ws:/root/ros2_ws
+    network_mode: host
+    stdin_open: true
+    tty: true
+    command: >
+      bash -c "
+        grep -qxF 'source /opt/ros/humble/setup.bash' ~/.bashrc || echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc;
+        grep -qxF 'source ~/ros2_ws/install/setup.bash' ~/.bashrc || echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bashrc;
+        exec bash"
+
+  ros2-gazebo:
+    # command: /bin/bash -c "  && bash"
+    image: osrf/ros:humble-desktop-full
+    container_name: ros2_humble_gz
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - D:\Robot\ros2\ros2_ws:/root/ros2_ws
+    network_mode: host
+    stdin_open: true
+    tty: true
+    command: >
+      bash -c "
+        grep -qxF 'source /opt/ros/humble/setup.bash' ~/.bashrc || echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc;
+        grep -qxF 'source ~/ros2_ws/install/setup.bash' ~/.bashrc || echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bashrc;
+        sudo apt update &&
+        sudo apt install ros-humble-joint-state-publisher ros-humble-joint-state-publisher-gui
+        exec bash"
+    

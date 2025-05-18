@@ -1,0 +1,30 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10  # Hz
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    pan_controller:
+      # type: joint_trajectory_controller/JointTrajectoryController
+      type: forward_command_controller/ForwardCommandController
+
+    tilt_controller:
+      # type: joint_trajectory_controller/JointTrajectoryController
+      type: forward_command_controller/ForwardCommandController
+
+pan_controller:
+  ros__parameters:
+    joints:
+      - base_to_pan_joint
+    interface_name: position
+    
+   
+tilt_controller:
+  ros__parameters:
+    joints:
+      - right_pillar_to_barrel_joint
+    interface_name: position
+    
+    

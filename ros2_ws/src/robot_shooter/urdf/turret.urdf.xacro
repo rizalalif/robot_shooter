@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="autonomous_robot" >
+  <!-- ####################################### -->
+  <!-- ROBOT PROPERTY -->
+
+  <!-- BASE LINK-->
+  <xacro:property name="base_link_radius" value="0.6"/>
+  <xacro:property name="base_link_length" value="0.3"/>
+
+  <!-- PAN LINK-->
+  <xacro:property name="pan_link_radius" value="0.4"/>
+  <xacro:property name="pan_link_length" value="0.1"/>
+
+  <!-- BOTH PILLAR LINK-->
+  <xacro:property name="pillar_link_x" value="0.02"/>
+  <xacro:property name="pillar_link_y" value="0.4"/>
+  <xacro:property name="pillar_link_z" value="1.5"/>
+
+  <!-- BARREL LINK-->
+  <xacro:property name="barrel_link_radius" value="1.25"/>
+  <xacro:property name="barrel_link_length" value="1.8"/>
+
+
+  <!-- LINK MASS -->
+  <xacro:property name="base_link_mass" value="5.0"/>
+  <xacro:property name="pan_link_mass" value="2.0"/>
+  <xacro:property name="pillar_link_mass" value="1.5"/>
+  <xacro:property name="barrel_link_mass" value="1.0"/>
+
+
+  <xacro:macro name="inertia_base">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${base_link_mass}"/>
+      <inertia
+        ixx="${(1/12.0)*base_link_mass*(3*base_link_radius*base_link_radius + base_link_length*base_link_length)}"
+        ixy="0.0" ixz="0.0"
+        iyy="${(1/12.0)*base_link_mass*(3*base_link_radius*base_link_radius + base_link_length*base_link_length)}"
+        iyz="0.0"
+        izz="${0.5*base_link_mass*base_link_radius*base_link_radius}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="inertia_pan">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${pan_link_mass}"/>
+      <inertia
+        ixx="${(1/12.0)*pan_link_mass*(3*pan_link_radius*pan_link_radius + pan_link_length*pan_link_length)}"
+        ixy="0.0" ixz="0.0"
+        iyy="${(1/12.0)*pan_link_mass*(3*pan_link_radius*pan_link_radius + pan_link_length*pan_link_length)}"
+        iyz="0.0"
+        izz="${0.5*pan_link_mass*pan_link_radius*pan_link_radius}"/>
+    </inertial>
+  </xacro:macro>
+
+  <material name="red">
+    <color rgba="0.8 0 0 1"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0 0.8 0 1"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+
+  <!-- ################################################################ -->
+  <!-- BASE ROBOT -->
+  <!-- ################################################################ -->
+
+  <link name="dummy_link">
+  </link>
+  <joint name="dummy_joint" type="fixed">
+    <parent link="dummy_link"/>
+    <child link="base_link"/>
+    
+  </joint>
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${base_link_radius}" length="${base_link_length}"/>
+        <!-- <cylinder radius="0.6" length="0.3"/> -->
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <!-- <cylinder radius="0.6" length="0.3"/> -->
+
+        <cylinder radius="${base_link_radius}" length="${base_link_length}"/>
+      </geometry>
+    </collision>
+
+    <xacro:inertia_base />
+    
+  </link>
+
+  <joint name="base_to_pan_leg" type="continuous">
+    <axis xyz="0 0 1" />
+    <parent link="base_link"/>
+    <child link="pan_link"/>
+    <origin xyz="0 0 ${base_link_length/2}"/>
+  </joint>
+
+  <link name="pan_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${pan_link_radius}" length="${pan_link_length}"/>
+      </geometry>
+      <!-- <material name="green"/> -->
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${pan_link_radius}" length="${pan_link_length}"/>
+      </geometry>
+    </collision>
+    <xacro:inertia_pan />
+  </link>
+
+  <joint name="pan_to_left_pillar_joint" type="fixed">
+    <parent link="pan_link"/>
+    <child link="left_pillar_link"/>
+    <origin xyz="0.25 0 0.4"/>
+  </joint>
+
+  <link name="left_pillar_link">
+    <visual>
+      <geometry>
+        <box size="${pillar_link_x} ${pillar_link_y} ${pillar_link_z}" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${pillar_link_x} ${pillar_link_y} ${pillar_link_z}" />
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+
+  <joint name="pan_to_right_pillar_joint" type="fixed">
+    <parent link="pan_link"/>
+    <child link="right_pillar_link"/>
+    <origin xyz="-0.25 0 0.4"/>
+  </joint>
+
+  <link name="right_pillar_link">
+    <visual>
+      <geometry>
+        <box size="${pillar_link_x} ${pillar_link_y} ${pillar_link_z}" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+     <collision>
+      <geometry>
+        <box size="${pillar_link_x} ${pillar_link_y} ${pillar_link_z}" />
+      </geometry>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </collision>
+  </link>
+
+  <joint name="right_pillar_to_barrel_joint" type="revolute">
+    <parent link="right_pillar_link"/>
+    <child link="barrel_link"/>
+    <origin xyz="0 0 0.2"/>
+    <axis xyz="1 0 0" />
+    <limit lower="1" upper="2" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <link name="barrel_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${barrel_link_radius}" length="${barrel_link_length}"/>
+        <!-- <mesh filename="package://robot_shooter/meshes/barrel.stl" scale="3 1 3"/> -->
+      </geometry>
+      
+      <!-- <origin rpy="1.65 0 0" xyz="0.25 0.1 0.1"/> -->
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <!-- <material name="blue" /> -->
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${barrel_link_radius}" length="${barrel_link_length}"/>
+
+          <!-- <mesh filename="package://robot_shooter/meshes/barrel.stl" scale="3 1 3"/> -->
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+  </link>
+
+
+
+<!-- gazebo -->
+
+<gazebo reference="base_link">
+  <material>Gazebo/Yellow</material>
+</gazebo>
+<gazebo reference="pan_link">
+  <material>Gazebo/Green</material>
+</gazebo>
+<gazebo reference="barrel_link">
+  <material>Gazebo/Purple</material>
+</gazebo>
+
+
+</robot>

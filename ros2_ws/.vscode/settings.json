@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.typeCheckingMode": "off"
+}
