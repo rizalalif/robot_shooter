@@ -1,0 +1,49 @@
+[11.062s] Invoking command in '/root/ros2_ws/build/robot_shooter': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/robot_shooter/build --no-deps symlink_data --force
+[14.426s] running develop
+[15.310s] running egg_info
+[15.316s] writing robot_shooter.egg-info/PKG-INFO
+[15.342s] writing dependency_links to robot_shooter.egg-info/dependency_links.txt
+[15.354s] writing entry points to robot_shooter.egg-info/entry_points.txt
+[15.402s] writing requirements to robot_shooter.egg-info/requires.txt
+[15.420s] writing top-level names to robot_shooter.egg-info/top_level.txt
+[16.232s] reading manifest file 'robot_shooter.egg-info/SOURCES.txt'
+[17.277s] writing manifest file 'robot_shooter.egg-info/SOURCES.txt'
+[17.311s] running build_ext
+[17.314s] Creating /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot-shooter.egg-link (link to .)
+[17.429s] Installing camera_capture script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[17.496s] Installing first_node script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[17.577s] Installing image_pub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[17.708s] Installing image_sub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[17.842s] Installing listener script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[17.987s] Installing sender script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.081s] Installing target_deleter script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.182s] 
+[18.185s] Installed /root/ros2_ws/build/robot_shooter
+[18.196s] running symlink_data
+[18.259s] symbolically linking /root/ros2_ws/build/robot_shooter/resource/robot_shooter -> /root/ros2_ws/install/robot_shooter/share/ament_index/resource_index/packages
+[18.311s] symbolically linking /root/ros2_ws/build/robot_shooter/package.xml -> /root/ros2_ws/install/robot_shooter/share/robot_shooter
+[18.377s] symbolically linking /root/ros2_ws/build/robot_shooter/launch/gazebo_cl.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[18.455s] symbolically linking /root/ros2_ws/build/robot_shooter/launch/gazebo_env.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[18.511s] symbolically linking /root/ros2_ws/build/robot_shooter/launch/gazebo_ign.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[18.575s] symbolically linking /root/ros2_ws/build/robot_shooter/launch/spawn_target.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[18.645s] symbolically linking /root/ros2_ws/build/robot_shooter/launch/spawn_turret.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[18.711s] symbolically linking /root/ros2_ws/build/robot_shooter/urdf/shooter_robot.urdf.xacro -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/urdf
+[18.772s] symbolically linking /root/ros2_ws/build/robot_shooter/urdf/turret.urdf.xacro -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/urdf
+[18.849s] symbolically linking /root/ros2_ws/build/robot_shooter/worlds/shooter_world.world -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/worlds
+[18.903s] symbolically linking /root/ros2_ws/build/robot_shooter/rviz/rviz.rviz -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/rviz
+[18.958s] symbolically linking /root/ros2_ws/build/robot_shooter/rviz/turret_config.rviz -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/rviz
+[19.021s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/ANOMAN.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.072s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/anoman001a.jpg.002.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.134s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/barrel.stl -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.191s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/barrel2.stl -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.271s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/burisrawa.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.350s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/DURNA.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.414s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/durna.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.510s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/patok_wayang2_durna.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.612s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/PETRUK.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.680s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/petruk.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.767s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/robot.stl -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[19.921s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/sengkuni 450x620.png -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[20.045s] symbolically linking /root/ros2_ws/build/robot_shooter/meshes/target_wayang.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[20.216s] symbolically linking /root/ros2_ws/build/robot_shooter/config/shooter_controllers.yaml -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/config
+[20.357s] Invoked command in '/root/ros2_ws/build/robot_shooter' returned '0': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/robot_shooter/build --no-deps symlink_data --force

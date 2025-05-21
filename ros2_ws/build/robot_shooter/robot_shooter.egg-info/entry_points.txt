@@ -1,7 +1,9 @@
 [console_scripts]
+camera_capture = robot_shooter.camera_capture:main
 first_node = robot_shooter.test_node:main
 image_pub = robot_shooter.image_pub:main
 image_sub = robot_shooter.image_sub:main
 listener = robot_shooter.test_subscribe:main
 sender = robot_shooter.test_publish:main
+target_deleter = robot_shooter.target_deleter:main
 

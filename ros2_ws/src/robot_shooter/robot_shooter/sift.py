@@ -11,16 +11,18 @@ class MultiReferenceSIFTDetector:
         index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
         search_params = dict(checks=50)
         self.flann = cv2.FlannBasedMatcher(index_params, search_params)
-        
         # Simpan keypoints dan descriptors dari reference images
         self.ref_keypoints = []
         self.ref_descriptors = []
+        self.ref_images = []
         
     def add_reference(self, image):
         """Menambahkan reference image"""
         if isinstance(image, str):
             image = cv2.imread(image)
         gray_ref = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        # h,w = gray_ref.shape
+        # self.h,self.w = h,w
         resized_ref = cv2.resize(gray_ref,(0, 0), fx = 0.01, fy = 0.01)
         # clahe = cv2.createCLAHE(clipLimit=5.0, tileGridSize=(8, 8))
         # claheImg = clahe.apply(gray)
@@ -32,11 +34,11 @@ class MultiReferenceSIFTDetector:
         if des is not None:
             self.ref_keypoints.append(kp)
             self.ref_descriptors.append(des)
+            self.ref_images.append(gray_ref)
             return True
         return False
         
-    def detect(self, frame, min_matches=4, ratio_thresh=0.62):
-        """Detect shuttlecock dalam frame"""
+    def detect(self, frame, min_matches=15, ratio_thresh=0.6):
         # Convert frame ke grayscale
         gray_input = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         # clahe = cv2.createCLAHE(clipLimit=5.0, tileGridSize=(8, 8))
@@ -62,6 +64,7 @@ class MultiReferenceSIFTDetector:
                 if m.distance < ratio_thresh * n.distance:
                     good_matches.append(m)
             
+            
             if len(good_matches) >= min_matches:
                 # Get matched keypoints
                 ref_pts = np.float32([self.ref_keypoints[i][m.queryIdx].pt 
@@ -76,23 +79,27 @@ class MultiReferenceSIFTDetector:
                 if H is None:
                     continue
                 #     Get corners dari reference image
-                h, w = gray_input.shape
-                corners = np.float32([[0, 0], [0, h-1], [w-1, h-1], [w-1, 0]]).reshape(-1, 1, 2)
+                # h, w = gray_input.shape
+                # corners = np.float32([[0, 0], [0, h-1], [w-1, h-1], [w-1, 0]]).reshape(-1, 1, 2)
+                h_ref, w_ref = self.ref_images[i].shape[:2]
+                corners = np.float32([[0, 0], [0, h_ref], [w_ref, h_ref], [w_ref, 0]]).reshape(-1, 1, 2)
                     
                 # Transform corners ke frame
                 transformed_corners = cv2.perspectiveTransform(corners, H)
-                    
-
-
+                
+                # object_center = np.mean(pts, axis=0)
                 # Gambar kotaks
                 pts = transformed_corners.reshape(-1, 2)
                 x_min, y_min = pts.min(axis=0).astype(int)
                 x_max, y_max = pts.max(axis=0).astype(int)
+                object_center = np.mean(pts, axis=0)
                 all_detections.append({
                         'corners': [x_min,y_min,x_max,y_max],
                         'matches': len(good_matches),
-                        'confidence': len(good_matches) / len(matches)
+                        'confidence': len(good_matches) / len(matches),
+                        'point' : object_center
                 })
+            
         return all_detections
 
 def create_reference_set():

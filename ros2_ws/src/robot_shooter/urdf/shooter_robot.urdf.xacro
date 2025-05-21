@@ -76,6 +76,10 @@
     <color rgba="0 0 0.8 1"/>
   </material>
 
+  <material name="yellow">
+    <color rgba="0.8 0.8 0 1"/>
+  </material>
+
 <!-- ROBOT CONSTRUCTION -->
 
 
@@ -116,7 +120,7 @@
       <geometry>
         <cylinder radius="${pan_link_radius}" length="${pan_link_length}"/>
       </geometry>
-      <!-- <material name="green"/> -->
+      <material name="yellow"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </visual>
     <collision>
@@ -139,6 +143,7 @@
         <box size="${pillar_link_x} ${pillar_link_y} ${pillar_link_z}" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="blue"/>
     </visual>
     <collision>
       <geometry>
@@ -146,6 +151,8 @@
       </geometry>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </collision>
+    <material name="blue" />
+
   </link>
 
   <joint name="pan_to_right_pillar_joint" type="fixed">
@@ -160,6 +167,7 @@
         <box size="${pillar_link_x} ${pillar_link_y} ${pillar_link_z}" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="blue" />
     </visual>
      <collision>
       <geometry>
@@ -190,7 +198,7 @@
       </geometry>
       <!-- <origin rpy="1.65 0 0" xyz="0.25 0.1 0.1"/> -->
       <origin rpy="1.6 0 0" xyz="0.05 0.1 -0.1"/>
-      <material name="blue" />
+      <material name="red"/>
     </visual>
     <collision>
       <geometry>
@@ -291,7 +299,7 @@
         </image>
         <clip>
           <near>0.02</near>
-          <far>8</far>
+          <far>80</far>
         </clip>
         <noise>
           <type>gaussian</type>

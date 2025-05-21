@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000875] (robot_shooter) JobQueued: {'identifier': 'robot_shooter', 'dependencies': OrderedDict()}
+[0.002817] (robot_shooter) JobStarted: {'identifier': 'robot_shooter'}
+[0.095164] (-) TimerEvent: {}
+[0.198475] (-) TimerEvent: {}
+[0.299407] (-) TimerEvent: {}
+[0.402988] (-) TimerEvent: {}
+[0.509044] (-) TimerEvent: {}
+[0.610155] (-) TimerEvent: {}
+[0.711277] (-) TimerEvent: {}
+[0.812524] (-) TimerEvent: {}
+[0.915114] (-) TimerEvent: {}
+[1.016322] (-) TimerEvent: {}
+[1.117290] (-) TimerEvent: {}
+[1.219163] (-) TimerEvent: {}
+[1.320243] (-) TimerEvent: {}
+[1.421134] (-) TimerEvent: {}
+[1.528649] (-) TimerEvent: {}
+[1.630137] (-) TimerEvent: {}
+[1.731623] (-) TimerEvent: {}
+[1.832572] (-) TimerEvent: {}
+[1.934566] (-) TimerEvent: {}
+[2.036667] (-) TimerEvent: {}
+[2.139338] (-) TimerEvent: {}
+[2.240365] (-) TimerEvent: {}
+[2.342205] (-) TimerEvent: {}
+[2.444129] (-) TimerEvent: {}
+[2.545149] (-) TimerEvent: {}
+[2.646252] (-) TimerEvent: {}
+[2.747096] (-) TimerEvent: {}
+[2.848184] (-) TimerEvent: {}
+[2.949591] (-) TimerEvent: {}
+[3.051286] (-) TimerEvent: {}
+[3.152937] (-) TimerEvent: {}
+[3.254117] (-) TimerEvent: {}
+[3.355155] (-) TimerEvent: {}
+[3.456414] (-) TimerEvent: {}
+[3.557893] (-) TimerEvent: {}
+[3.659164] (-) TimerEvent: {}
+[3.760294] (-) TimerEvent: {}
+[3.863708] (-) TimerEvent: {}
+[3.965008] (-) TimerEvent: {}
+[4.065986] (-) TimerEvent: {}
+[4.167772] (-) TimerEvent: {}
+[4.268817] (-) TimerEvent: {}
+[4.370511] (-) TimerEvent: {}
+[4.471668] (-) TimerEvent: {}
+[4.572834] (-) TimerEvent: {}
+[4.674499] (-) TimerEvent: {}
+[4.775665] (-) TimerEvent: {}
+[4.877017] (-) TimerEvent: {}
+[4.978831] (-) TimerEvent: {}
+[5.080305] (-) TimerEvent: {}
+[5.182549] (-) TimerEvent: {}
+[5.283574] (-) TimerEvent: {}
+[5.384752] (-) TimerEvent: {}
+[5.485933] (-) TimerEvent: {}
+[5.587428] (-) TimerEvent: {}
+[5.688729] (-) TimerEvent: {}
+[5.790118] (-) TimerEvent: {}
+[5.891253] (-) TimerEvent: {}
+[5.992681] (-) TimerEvent: {}
+[6.100476] (-) TimerEvent: {}
+[6.202200] (-) TimerEvent: {}
+[6.303305] (-) TimerEvent: {}
+[6.404911] (-) TimerEvent: {}
+[6.505805] (-) TimerEvent: {}
+[6.606913] (-) TimerEvent: {}
+[6.706939] (robot_shooter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_shooter', 'build', '--build-base', '/root/ros2_ws/build/robot_shooter/build', 'install', '--record', '/root/ros2_ws/build/robot_shooter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/robot_shooter', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'BROWSER': '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.87.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-eab924d5-4d30-4e04-81c6-4eaf3fd94a7c.sock', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-cf5f8988-5bbe-4a2c-9983-d31a5021f816.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/root/.gnupg/S.gpg-agent"]', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-af24f8764d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/robot_shooter:/opt/ros/humble', 'SHELL': '/bin/bash', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/ros2_ws/build/robot_shooter', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.755215] (-) TimerEvent: {}
+[6.856230] (-) TimerEvent: {}
+[6.964135] (-) TimerEvent: {}
+[7.067970] (-) TimerEvent: {}
+[7.169384] (-) TimerEvent: {}
+[7.270608] (-) TimerEvent: {}
+[7.373146] (-) TimerEvent: {}
+[7.474353] (-) TimerEvent: {}
+[7.575558] (-) TimerEvent: {}
+[7.677455] (-) TimerEvent: {}
+[7.779447] (-) TimerEvent: {}
+[7.880750] (-) TimerEvent: {}
+[7.982043] (-) TimerEvent: {}
+[8.084181] (-) TimerEvent: {}
+[8.185777] (-) TimerEvent: {}
+[8.286999] (-) TimerEvent: {}
+[8.388098] (-) TimerEvent: {}
+[8.489132] (-) TimerEvent: {}
+[8.592486] (-) TimerEvent: {}
+[8.695368] (-) TimerEvent: {}
+[8.797442] (-) TimerEvent: {}
+[8.900224] (-) TimerEvent: {}
+[9.001396] (-) TimerEvent: {}
+[9.102443] (-) TimerEvent: {}
+[9.204266] (-) TimerEvent: {}
+[9.305323] (-) TimerEvent: {}
+[9.406615] (-) TimerEvent: {}
+[9.507889] (-) TimerEvent: {}
+[9.608760] (-) TimerEvent: {}
+[9.710171] (-) TimerEvent: {}
+[9.811348] (-) TimerEvent: {}
+[9.912634] (-) TimerEvent: {}
+[10.013669] (-) TimerEvent: {}
+[10.101192] (robot_shooter) StdoutLine: {'line': b'running egg_info\n'}
+[10.113838] (-) TimerEvent: {}
+[10.120721] (robot_shooter) StdoutLine: {'line': b'writing ../../build/robot_shooter/robot_shooter.egg-info/PKG-INFO\n'}
+[10.160487] (robot_shooter) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_shooter/robot_shooter.egg-info/dependency_links.txt\n'}
+[10.191297] (robot_shooter) StdoutLine: {'line': b'writing entry points to ../../build/robot_shooter/robot_shooter.egg-info/entry_points.txt\n'}
+[10.210633] (robot_shooter) StdoutLine: {'line': b'writing requirements to ../../build/robot_shooter/robot_shooter.egg-info/requires.txt\n'}
+[10.215101] (-) TimerEvent: {}
+[10.221569] (robot_shooter) StdoutLine: {'line': b'writing top-level names to ../../build/robot_shooter/robot_shooter.egg-info/top_level.txt\n'}
+[10.315331] (-) TimerEvent: {}
+[10.416690] (-) TimerEvent: {}
+[10.517930] (-) TimerEvent: {}
+[10.559575] (robot_shooter) StdoutLine: {'line': b"reading manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'\n"}
+[10.618183] (-) TimerEvent: {}
+[10.719362] (-) TimerEvent: {}
+[10.820197] (-) TimerEvent: {}
+[10.921223] (-) TimerEvent: {}
+[11.022480] (-) TimerEvent: {}
+[11.123427] (-) TimerEvent: {}
+[11.133462] (robot_shooter) StdoutLine: {'line': b"writing manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'\n"}
+[11.145203] (robot_shooter) StdoutLine: {'line': b'running build\n'}
+[11.147285] (robot_shooter) StdoutLine: {'line': b'running build_py\n'}
+[11.223655] (-) TimerEvent: {}
+[11.324751] (-) TimerEvent: {}
+[11.341785] (robot_shooter) StdoutLine: {'line': b'copying robot_shooter/target_deleter.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter\n'}
+[11.425011] (-) TimerEvent: {}
+[11.526455] (-) TimerEvent: {}
+[11.536865] (robot_shooter) StdoutLine: {'line': b'running install\n'}
+[11.538898] (robot_shooter) StdoutLine: {'line': b'running install_lib\n'}
+[11.626653] (-) TimerEvent: {}
+[11.727764] (-) TimerEvent: {}
+[11.842142] (-) TimerEvent: {}
+[11.869951] (robot_shooter) StdoutLine: {'line': b'copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/target_deleter.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter\n'}
+[11.942442] (-) TimerEvent: {}
+[12.044400] (-) TimerEvent: {}
+[12.145740] (-) TimerEvent: {}
+[12.247009] (-) TimerEvent: {}
+[12.348046] (-) TimerEvent: {}
+[12.353859] (robot_shooter) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/target_deleter.py to target_deleter.cpython-310.pyc\n'}
+[12.448674] (-) TimerEvent: {}
+[12.549851] (-) TimerEvent: {}
+[12.600716] (robot_shooter) StdoutLine: {'line': b'running install_data\n'}
+[12.650069] (-) TimerEvent: {}
+[12.752994] (-) TimerEvent: {}
+[12.854029] (-) TimerEvent: {}
+[12.955506] (-) TimerEvent: {}
+[13.056536] (-) TimerEvent: {}
+[13.157921] (-) TimerEvent: {}
+[13.258694] (-) TimerEvent: {}
+[13.359806] (-) TimerEvent: {}
+[13.461081] (-) TimerEvent: {}
+[13.561989] (-) TimerEvent: {}
+[13.568257] (robot_shooter) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.597326] (robot_shooter) StdoutLine: {'line': b"removing '/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.662229] (-) TimerEvent: {}
+[13.763264] (-) TimerEvent: {}
+[13.776897] (robot_shooter) StdoutLine: {'line': b'Copying ../../build/robot_shooter/robot_shooter.egg-info to /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info\n'}
+[13.863790] (-) TimerEvent: {}
+[13.965088] (-) TimerEvent: {}
+[14.066501] (-) TimerEvent: {}
+[14.167631] (-) TimerEvent: {}
+[14.269135] (-) TimerEvent: {}
+[14.371274] (-) TimerEvent: {}
+[14.475438] (-) TimerEvent: {}
+[14.484302] (robot_shooter) StdoutLine: {'line': b'running install_scripts\n'}
+[14.574169] (-) TimerEvent: {}
+[14.675391] (-) TimerEvent: {}
+[14.756362] (robot_shooter) StdoutLine: {'line': b'Installing camera_capture script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[14.775641] (-) TimerEvent: {}
+[14.791822] (robot_shooter) StdoutLine: {'line': b'Installing first_node script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[14.834079] (robot_shooter) StdoutLine: {'line': b'Installing image_pub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[14.875903] (-) TimerEvent: {}
+[14.891210] (robot_shooter) StdoutLine: {'line': b'Installing image_sub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[14.961667] (robot_shooter) StdoutLine: {'line': b'Installing listener script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[14.976071] (-) TimerEvent: {}
+[15.006342] (robot_shooter) StdoutLine: {'line': b'Installing sender script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[15.042748] (robot_shooter) StdoutLine: {'line': b'Installing target_deleter script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter\n'}
+[15.076421] (-) TimerEvent: {}
+[15.110434] (robot_shooter) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/robot_shooter/install.log'\n"}
+[15.176645] (-) TimerEvent: {}
+[15.218504] (robot_shooter) CommandEnded: {'returncode': 0}
+[15.276954] (-) TimerEvent: {}
+[15.377895] (-) TimerEvent: {}
+[15.478939] (-) TimerEvent: {}
+[15.579785] (-) TimerEvent: {}
+[15.680783] (-) TimerEvent: {}
+[15.781726] (-) TimerEvent: {}
+[15.883580] (-) TimerEvent: {}
+[15.984862] (-) TimerEvent: {}
+[16.085919] (-) TimerEvent: {}
+[16.187169] (-) TimerEvent: {}
+[16.288241] (-) TimerEvent: {}
+[16.340394] (robot_shooter) JobEnded: {'identifier': 'robot_shooter', 'rc': 0}
+[16.359647] (-) EventReactorShutdown: {}

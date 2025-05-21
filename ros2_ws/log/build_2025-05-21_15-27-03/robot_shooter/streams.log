@@ -1,0 +1,33 @@
+[3.043s] Invoking command in '/root/ros2_ws/src/robot_shooter': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_shooter build --build-base /root/ros2_ws/build/robot_shooter/build install --record /root/ros2_ws/build/robot_shooter/install.log --single-version-externally-managed install_data
+[4.180s] running egg_info
+[4.189s] writing ../../build/robot_shooter/robot_shooter.egg-info/PKG-INFO
+[4.198s] writing dependency_links to ../../build/robot_shooter/robot_shooter.egg-info/dependency_links.txt
+[4.206s] writing entry points to ../../build/robot_shooter/robot_shooter.egg-info/entry_points.txt
+[4.212s] writing requirements to ../../build/robot_shooter/robot_shooter.egg-info/requires.txt
+[4.217s] writing top-level names to ../../build/robot_shooter/robot_shooter.egg-info/top_level.txt
+[4.352s] reading manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[4.586s] writing manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[4.590s] running build
+[4.591s] running build_py
+[4.648s] copying robot_shooter/image_sub.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[4.694s] copying robot_shooter/sift.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[4.819s] running install
+[4.820s] running install_lib
+[4.930s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/image_sub.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.992s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/sift.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[5.213s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/image_sub.py to image_sub.cpython-310.pyc
+[5.286s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/sift.py to sift.cpython-310.pyc
+[5.431s] running install_data
+[5.863s] running install_egg_info
+[5.879s] removing '/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info' (and everything under it)
+[5.960s] Copying ../../build/robot_shooter/robot_shooter.egg-info to /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info
+[6.305s] running install_scripts
+[6.412s] Installing camera_capture script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.427s] Installing first_node script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.443s] Installing image_pub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.462s] Installing image_sub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.479s] Installing listener script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.496s] Installing sender script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.515s] Installing target_deleter script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.535s] writing list of installed files to '/root/ros2_ws/build/robot_shooter/install.log'
+[6.585s] Invoked command in '/root/ros2_ws/src/robot_shooter' returned '0': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_shooter build --build-base /root/ros2_ws/build/robot_shooter/build install --record /root/ros2_ws/build/robot_shooter/install.log --single-version-externally-managed install_data

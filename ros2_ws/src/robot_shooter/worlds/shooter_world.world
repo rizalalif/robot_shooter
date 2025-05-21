@@ -90,195 +90,11 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='shooter_field'>
-      <pose>-2.09369 0.269886 0 0 -0 0</pose>
-      <link name='Wall_16'>
-        <collision name='Wall_16_Collision'>
-          <geometry>
-            <box>
-              <size>16 0.15 2.5</size>
-            </box>
-          </geometry>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_16_Visual'>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>16 0.15 2.5</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Bricks</name>
-            </script>
-            <ambient>0.921569 0.807843 0.615686 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>-7.425 0.023262 0 0 -0 1.5708</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='Wall_17'>
-        <collision name='Wall_17_Collision'>
-          <geometry>
-            <box>
-              <size>15 0.15 2.5</size>
-            </box>
-          </geometry>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_17_Visual'>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>15 0.15 2.5</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Bricks</name>
-            </script>
-            <ambient>0.921569 0.807843 0.615686 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>0 7.90174 0 0 -0 0</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='Wall_18'>
-        <collision name='Wall_18_Collision'>
-          <geometry>
-            <box>
-              <size>16 0.15 2.5</size>
-            </box>
-          </geometry>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_18_Visual'>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>16 0.15 2.5</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Bricks</name>
-            </script>
-            <ambient>0.921569 0.807843 0.615686 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>7.425 -0.023262 0 0 -0 -1.5708</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='Wall_19'>
-        <collision name='Wall_19_Collision'>
-          <geometry>
-            <box>
-              <size>15 0.15 2.5</size>
-            </box>
-          </geometry>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_19_Visual'>
-          <pose>0 0 1.25 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>15 0.15 2.5</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Bricks</name>
-            </script>
-            <ambient>0.921569 0.807843 0.615686 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>0 -7.94826 0 0 -0 3.14159</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-    </model>
     <state world_name='default'>
-      <sim_time>134 316000000</sim_time>
-      <real_time>91 124611286</real_time>
-      <wall_time>1747190906 786327851</wall_time>
-      <iterations>68046</iterations>
+      <sim_time>2078 425000000</sim_time>
+      <real_time>114 555978597</real_time>
+      <wall_time>1747823672 714500336</wall_time>
+      <iterations>100600</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -289,91 +105,51 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='patok_wayang'>
-        <pose>-0.056335 7.0225 -0.005964 -1.1e-05 -1.5e-05 -1.48411</pose>
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose>-0.056334 7.0225 -0.005964 1.6e-05 -1e-05 -3.13382</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0.015524 0.018942 0.355552 0.036602 0.534415 -3.14137</acceleration>
-          <wrench>-0.015524 0.018942 0.355552 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='patok_wayang_0'>
-        <pose>7 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose>7 0 0 0 0 -1.64971</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='patok_wayang_1'>
-        <pose>-6.06184 0.004476 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose>-6.06184 0.004476 0 0 0 -1.64971</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='patok_wayang_2'>
-        <pose>0.003649 -6.96168 0 0 -0 1.67192</pose>
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose>0.003649 -6.96168 0 0 -0 0.02221</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='robot_shooter'>
-        <pose>0.00131 0.006692 0.2 0 -0 0.050228</pose>
+        <pose>0.016589 -0.046727 0.199998 2e-06 -5e-06 -0.907052</pose>
         <scale>1 1 1</scale>
         <link name='barrel_link'>
-          <pose>-0.048627 0.004181 1.5 -1.5e-05 0 0.050228</pose>
-          <velocity>-0.001392 -0.001218 0.00297 -0.014612 -0.001584 0.000228</velocity>
-          <acceleration>-3.69326 -3.94086 0.139303 0.603339 -0.0671 0.768316</acceleration>
-          <wrench>-4.06258 -4.33495 0.153233 0 -0 0</wrench>
+          <pose>-0.01422 -0.00734 1.5 -8e-06 -5e-06 -0.907052</pose>
+          <velocity>-0.008301 0.005801 -0.002508 -0.009868 0.002416 -0.000879</velocity>
+          <acceleration>-6.62183 1.76433 -4.59226 2.9145 -1.11624 -0.172387</acceleration>
+          <wrench>-7.28401 1.94077 -5.05149 0 -0 0</wrench>
         </link>
         <link name='base_link'>
-          <pose>0.00131 0.006692 0.2 0 -0 0.050228</pose>
-          <velocity>-0.000154 -0.000138 0.000633 0.000454 -0.001024 9e-05</velocity>
-          <acceleration>0.043041 -0.518299 1.30388 -0.449465 -0.308058 -3.05667</acceleration>
-          <wrench>0.215204 -2.5915 6.51942 0 -0 0</wrench>
+          <pose>0.016589 -0.046727 0.199998 2e-06 -5e-06 -0.907052</pose>
+          <velocity>-0.00086 0.000924 -0.002192 -0.003716 -0.005789 -0.000132</velocity>
+          <acceleration>-0.620512 0.43501 -3.85199 -0.957517 1.53479 -0.111112</acceleration>
+          <wrench>-3.10256 2.17505 -19.26 0 -0 0</wrench>
         </link>
         <link name='pan_link'>
-          <pose>0.00131 0.006692 0.35 0 -0 0.050228</pose>
-          <velocity>-0.000185 -0.000124 0.000725 0.000652 -0.000976 1e-06</velocity>
-          <acceleration>-0.638841 -1.17525 1.14876 -0.284813 -0.375051 -3.10784</acceleration>
-          <wrench>-1.5971 -2.93812 2.87189 0 -0 0</wrench>
+          <pose>0.016589 -0.046727 0.349998 2e-06 -4e-06 -0.907052</pose>
+          <velocity>-0.001826 0.001523 -0.002192 -0.00366 -0.00541 -0.000773</velocity>
+          <acceleration>-1.75073 0.715606 -4.02191 -0.367304 1.17589 -1.74124</acceleration>
+          <wrench>-4.37681 1.78902 -10.0548 0 -0 0</wrench>
         </link>
       </model>
-      <model name='shooter_field'>
-        <pose>0.47676 0.092591 0 0 -0 0</pose>
+      <model name='walls_0'>
+        <pose>-0.088029 0.0138 0 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='Wall_16'>
-          <pose>-6.94824 0.115853 0 0 -0 1.5708</pose>
+        <link name='Wall_35'>
+          <pose>-0.088029 16.0138 0 0 -0 0.010128</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-        <link name='Wall_17'>
-          <pose>0.476763 7.99433 0 0 -0 0</pose>
+        <link name='Wall_41'>
+          <pose>15.9585 0.013558 0 0 0 -1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-        <link name='Wall_18'>
-          <pose>7.90176 0.069329 0 0 0 -1.5708</pose>
+        <link name='Wall_43'>
+          <pose>-0.088029 -16.016 0 0 -0 3.13904</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-        <link name='Wall_19'>
-          <pose>0.476763 -7.85567 0 0 -0 3.14159</pose>
+        <link name='Wall_45'>
+          <pose>-16.1345 -0.070442 0 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -383,16 +159,34 @@
         <pose>0 0 10 0 -0 0</pose>
       </light>
       <light name='user_point_light_0'>
-        <pose>0.040895 0.233795 1 0 -0 0</pose>
+        <pose>0 0 10 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>10.5341 -11.2298 17.5687 0 0.985797 2.27458</pose>
+        <pose>-36.7115 -2.02211 25.8894 -0 0.677796 -0.026332</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <light name='user_point_light_0' type='point'>
+      <pose>0.040895 0.233795 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
     <model name='robot_shooter'>
       <link name='base_link'>
         <inertial>
@@ -699,7 +493,7 @@
           <visualize>1</visualize>
           <update_rate>30</update_rate>
           <camera name='shooter_camera'>
-            <horizontal_fov>1.39626</horizontal_fov>
+            <horizontal_fov>1.0472</horizontal_fov>
             <image>
               <width>640</width>
               <height>480</height>
@@ -707,7 +501,7 @@
             </image>
             <clip>
               <near>0.02</near>
-              <far>300</far>
+              <far>80</far>
             </clip>
             <noise>
               <type>gaussian</type>
@@ -741,418 +535,189 @@
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
     </model>
-    <model name='patok_wayang'>
-      <link name='link_0'>
-        <inertial>
-          <mass>1</mass>
-          <inertia>
-            <ixx>0.166667</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.166667</iyy>
-            <iyz>0</iyz>
-            <izz>0.166667</izz>
-          </inertia>
-          <pose>0 0 0 0 -0 0</pose>
-        </inertial>
-        <pose>4e-06 0 0 0 0 -1.64971</pose>
-        <visual name='visual'>
-          <pose>0 0 0 0 -0 0</pose>
+    <model name='walls_0'>
+      <pose>0.487983 1.41209 0 0 -0 0</pose>
+      <link name='Wall_35'>
+        <collision name='Wall_35_Collision'>
           <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
+            <box>
+              <size>32.2441 0.15 2.5</size>
+            </box>
           </geometry>
-          <material>
-            <lighting>1</lighting>
-            <pbr>
-              <specular>
-                <albedo_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</albedo_map>
-                <specular_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</specular_map>
-              </specular>
-            </pbr>
-            <shader type='pixel'/>
-          </material>
-          <transparency>0</transparency>
-          <cast_shadows>1</cast_shadows>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
+          <pose>0 0 1.25 0 -0 0</pose>
           <max_contacts>10</max_contacts>
-          <pose>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
-          </geometry>
           <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
             <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
+              <ode/>
             </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
           </surface>
         </collision>
+        <visual name='Wall_35_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>32.2441 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-0 16 0 0 -0 0.010128</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <static>0</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose>-0.253371 6.48803 0 0 -0 0</pose>
-    </model>
-    <model name='patok_wayang_0'>
-      <link name='link_0'>
-        <inertial>
-          <mass>1</mass>
-          <inertia>
-            <ixx>0.166667</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.166667</iyy>
-            <iyz>0</iyz>
-            <izz>0.166667</izz>
-          </inertia>
-          <pose>0 0 0 0 -0 0</pose>
-        </inertial>
-        <pose>4e-06 0 0 0 0 -1.64971</pose>
-        <visual name='visual'>
-          <pose>0 0 0 0 -0 0</pose>
+      <link name='Wall_41'>
+        <collision name='Wall_41_Collision'>
           <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
+            <box>
+              <size>32.25 0.15 2.5</size>
+            </box>
           </geometry>
-          <material>
-            <lighting>1</lighting>
-            <pbr>
-              <specular>
-                <albedo_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</albedo_map>
-                <specular_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</specular_map>
-              </specular>
-            </pbr>
-            <shader type='pixel'/>
-          </material>
-          <transparency>0</transparency>
-          <cast_shadows>1</cast_shadows>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
+          <pose>0 0 1.25 0 -0 0</pose>
           <max_contacts>10</max_contacts>
-          <pose>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
-          </geometry>
           <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
             <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
+              <ode/>
             </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
           </surface>
         </collision>
+        <visual name='Wall_41_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>32.25 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>16.0465 -0.000283 0 0 -0 -1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <static>0</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose>7 0 0 0 -0 0</pose>
-    </model>
-    <model name='patok_wayang_1'>
-      <link name='link_0'>
-        <inertial>
-          <mass>1</mass>
-          <inertia>
-            <ixx>0.166667</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.166667</iyy>
-            <iyz>0</iyz>
-            <izz>0.166667</izz>
-          </inertia>
-          <pose>0 0 0 0 -0 0</pose>
-        </inertial>
-        <pose>4e-06 0 0 0 0 -1.64971</pose>
-        <visual name='visual'>
-          <pose>0 0 0 0 -0 0</pose>
+      <link name='Wall_43'>
+        <collision name='Wall_43_Collision'>
           <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
+            <box>
+              <size>32.2436 0.15 2.5</size>
+            </box>
           </geometry>
-          <material>
-            <lighting>1</lighting>
-            <pbr>
-              <specular>
-                <albedo_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</albedo_map>
-                <specular_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</specular_map>
-              </specular>
-            </pbr>
-            <shader type='pixel'/>
-          </material>
-          <transparency>0</transparency>
-          <cast_shadows>1</cast_shadows>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
+          <pose>0 0 1.25 0 -0 0</pose>
           <max_contacts>10</max_contacts>
-          <pose>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
-          </geometry>
           <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
             <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
+              <ode/>
             </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
           </surface>
         </collision>
+        <visual name='Wall_43_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>32.2436 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-0 -16.0298 0 0 -0 3.13904</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <static>0</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose>-6.06184 0.004476 0 0 -0 0</pose>
-    </model>
-    <model name='patok_wayang_2'>
-      <link name='link_0'>
-        <inertial>
-          <mass>1</mass>
-          <inertia>
-            <ixx>0.166667</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.166667</iyy>
-            <iyz>0</iyz>
-            <izz>0.166667</izz>
-          </inertia>
-          <pose>0 0 0 0 -0 0</pose>
-        </inertial>
-        <pose>4e-06 0 0 0 0 -1.64971</pose>
-        <visual name='visual'>
-          <pose>0 0 0 0 -0 0</pose>
+      <link name='Wall_45'>
+        <collision name='Wall_45_Collision'>
           <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
+            <box>
+              <size>32 0.15 2.5</size>
+            </box>
           </geometry>
-          <material>
-            <lighting>1</lighting>
-            <pbr>
-              <specular>
-                <albedo_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</albedo_map>
-                <specular_map>/root/ros2_ws/src/robot_shooter/meshes/sengkuni 450x620.png</specular_map>
-              </specular>
-            </pbr>
-            <shader type='pixel'/>
-          </material>
-          <transparency>0</transparency>
-          <cast_shadows>1</cast_shadows>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
+          <pose>0 0 1.25 0 -0 0</pose>
           <max_contacts>10</max_contacts>
-          <pose>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>/root/ros2_ws/src/robot_shooter/meshes/target_wayang.dae</uri>
-              <scale>0.5 0.5 0.5</scale>
-            </mesh>
-          </geometry>
           <surface>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <coefficient>1</coefficient>
-                <patch_radius>0</patch_radius>
-                <surface_radius>0</surface_radius>
-                <use_patch_radius>1</use_patch_radius>
-                <ode>
-                  <slip>0</slip>
-                </ode>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>1e+06</threshold>
-            </bounce>
             <contact>
-              <collide_without_contact>0</collide_without_contact>
-              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
-              <collide_bitmask>1</collide_bitmask>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-                <max_vel>0.01</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-              <bullet>
-                <split_impulse>1</split_impulse>
-                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <kp>1e+13</kp>
-                <kd>1</kd>
-              </bullet>
+              <ode/>
             </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
           </surface>
         </collision>
+        <visual name='Wall_45_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>32 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-16.0465 -0.084283 0 0 -0 1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <static>0</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose>0.003649 -6.96168 0 0 -0 0</pose>
+      <static>1</static>
     </model>
-    <light name='user_point_light_0' type='point'>
-      <pose>0.040895 0.233795 1 0 -0 0</pose>
-      <diffuse>0.5 0.5 0.5 1</diffuse>
-      <specular>0.1 0.1 0.1 1</specular>
-      <attenuation>
-        <range>20</range>
-        <constant>0.5</constant>
-        <linear>0.01</linear>
-        <quadratic>0.001</quadratic>
-      </attenuation>
-      <cast_shadows>0</cast_shadows>
-      <direction>0 0 -1</direction>
-    </light>
   </world>
 </sdf>

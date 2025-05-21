@@ -1,0 +1,33 @@
+[9.374s] Invoking command in '/root/ros2_ws/src/robot_shooter': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_shooter build --build-base /root/ros2_ws/build/robot_shooter/build install --record /root/ros2_ws/build/robot_shooter/install.log --single-version-externally-managed install_data
+[12.852s] running egg_info
+[12.880s] writing ../../build/robot_shooter/robot_shooter.egg-info/PKG-INFO
+[12.899s] writing dependency_links to ../../build/robot_shooter/robot_shooter.egg-info/dependency_links.txt
+[12.934s] writing entry points to ../../build/robot_shooter/robot_shooter.egg-info/entry_points.txt
+[12.956s] writing requirements to ../../build/robot_shooter/robot_shooter.egg-info/requires.txt
+[12.966s] writing top-level names to ../../build/robot_shooter/robot_shooter.egg-info/top_level.txt
+[13.408s] reading manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[13.940s] writing manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[13.953s] running build
+[13.955s] running build_py
+[14.050s] copying robot_shooter/image_sub.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[14.165s] copying robot_shooter/sift.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[14.433s] running install
+[14.435s] running install_lib
+[14.715s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/image_sub.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[14.893s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/sift.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[15.480s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/image_sub.py to image_sub.cpython-310.pyc
+[15.665s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/sift.py to sift.cpython-310.pyc
+[15.980s] running install_data
+[17.034s] running install_egg_info
+[17.100s] removing '/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info' (and everything under it)
+[17.275s] Copying ../../build/robot_shooter/robot_shooter.egg-info to /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info
+[18.312s] running install_scripts
+[18.622s] Installing camera_capture script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.682s] Installing first_node script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.732s] Installing image_pub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.792s] Installing image_sub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.830s] Installing listener script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.857s] Installing sender script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.883s] Installing target_deleter script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[18.930s] writing list of installed files to '/root/ros2_ws/build/robot_shooter/install.log'
+[19.090s] Invoked command in '/root/ros2_ws/src/robot_shooter' returned '0': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_shooter build --build-base /root/ros2_ws/build/robot_shooter/build install --record /root/ros2_ws/build/robot_shooter/install.log --single-version-externally-managed install_data

@@ -14,6 +14,7 @@ setup(
         (f'share/{package_name}/launch', glob('launch/*.launch.py')),
         (f'share/{package_name}/urdf', glob('urdf/*.urdf.xacro')),
         (f'share/{package_name}/worlds', glob('worlds/*.world')),
+        (f'share/{package_name}/rviz', glob('rviz/*.rviz')),
         (f'share/{package_name}/meshes', glob('meshes/*')),
         (f'share/{package_name}/config', glob('config/*')),
     ],
@@ -31,6 +32,8 @@ setup(
             'listener = robot_shooter.test_subscribe:main',
             'image_sub = robot_shooter.image_sub:main',
             'image_pub = robot_shooter.image_pub:main',
+            'camera_capture = robot_shooter.camera_capture:main',
+            'target_deleter = robot_shooter.target_deleter:main',
         ],
     },
 )

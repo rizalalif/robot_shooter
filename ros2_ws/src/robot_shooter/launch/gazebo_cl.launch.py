@@ -21,7 +21,7 @@ def generate_launch_description():
     # Paths
     pkg_share = FindPackageShare(package=package_name).find(package_name)
     urdf_path = os.path.join(pkg_share, 'urdf', 'shooter_robot.urdf.xacro')
-    robot_description_content = xacro.process_file(urdf_path).toxml()
+    robot_description_content = xacro.process_file(urdf_path).toxml() # type: ignore
     
     # Controllers
     controller_config = os.path.join(pkg_share, 'config', 'shooter_controllers.yaml')
@@ -160,7 +160,7 @@ def generate_launch_description():
         gazebo,
         spawn_entity,
         joint_state_publisher_gui,
-        rviz_controller,
+        # rviz_controller,
         control_node,
 
 

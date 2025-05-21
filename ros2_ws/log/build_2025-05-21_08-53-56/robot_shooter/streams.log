@@ -1,0 +1,97 @@
+[2.234s] Invoking command in '/root/ros2_ws/src/robot_shooter': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_shooter build --build-base /root/ros2_ws/build/robot_shooter/build install --record /root/ros2_ws/build/robot_shooter/install.log --single-version-externally-managed install_data
+[3.363s] running egg_info
+[3.370s] creating ../../build/robot_shooter/robot_shooter.egg-info
+[3.375s] writing ../../build/robot_shooter/robot_shooter.egg-info/PKG-INFO
+[3.390s] writing dependency_links to ../../build/robot_shooter/robot_shooter.egg-info/dependency_links.txt
+[3.400s] writing entry points to ../../build/robot_shooter/robot_shooter.egg-info/entry_points.txt
+[3.407s] writing requirements to ../../build/robot_shooter/robot_shooter.egg-info/requires.txt
+[3.411s] writing top-level names to ../../build/robot_shooter/robot_shooter.egg-info/top_level.txt
+[3.419s] writing manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[3.598s] reading manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[3.755s] writing manifest file '../../build/robot_shooter/robot_shooter.egg-info/SOURCES.txt'
+[3.762s] running build
+[3.763s] running build_py
+[3.770s] creating /root/ros2_ws/build/robot_shooter/build
+[3.772s] creating /root/ros2_ws/build/robot_shooter/build/lib
+[3.776s] creating /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.788s] copying robot_shooter/camera_capture.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.819s] copying robot_shooter/image_pub.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.858s] copying robot_shooter/image_sub.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.890s] copying robot_shooter/sift.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.921s] copying robot_shooter/test_node.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.951s] copying robot_shooter/test_publish.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[3.986s] copying robot_shooter/test_subscribe.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[4.016s] copying robot_shooter/__init__.py -> /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter
+[4.034s] running install
+[4.035s] running install_lib
+[4.068s] creating /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.092s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/camera_capture.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.134s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/image_pub.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.191s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/image_sub.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.236s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/sift.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.285s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/test_node.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.328s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/test_publish.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.373s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/test_subscribe.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.422s] copying /root/ros2_ws/build/robot_shooter/build/lib/robot_shooter/__init__.py -> /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter
+[4.473s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/camera_capture.py to camera_capture.cpython-310.pyc
+[4.546s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/image_pub.py to image_pub.cpython-310.pyc
+[4.614s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/image_sub.py to image_sub.cpython-310.pyc
+[4.669s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/sift.py to sift.cpython-310.pyc
+[4.726s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/test_node.py to test_node.cpython-310.pyc
+[4.784s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/test_publish.py to test_publish.cpython-310.pyc
+[4.841s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/test_subscribe.py to test_subscribe.cpython-310.pyc
+[4.915s] byte-compiling /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter/__init__.py to __init__.cpython-310.pyc
+[4.965s] running install_data
+[4.979s] creating /root/ros2_ws/install/robot_shooter/share/ament_index
+[4.982s] creating /root/ros2_ws/install/robot_shooter/share/ament_index/resource_index
+[4.986s] creating /root/ros2_ws/install/robot_shooter/share/ament_index/resource_index/packages
+[5.000s] copying resource/robot_shooter -> /root/ros2_ws/install/robot_shooter/share/ament_index/resource_index/packages
+[5.031s] copying package.xml -> /root/ros2_ws/install/robot_shooter/share/robot_shooter
+[5.054s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[5.070s] copying launch/gazebo_cl.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[5.102s] copying launch/gazebo_env.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[5.139s] copying launch/gazebo_ign.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[5.177s] copying launch/spawn_target.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[5.206s] copying launch/spawn_turret.launch.py -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/launch
+[5.234s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/urdf
+[5.248s] copying urdf/shooter_robot.urdf.xacro -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/urdf
+[5.291s] copying urdf/turret.urdf.xacro -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/urdf
+[5.318s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/worlds
+[5.330s] copying worlds/shooter_world.world -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/worlds
+[5.361s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.379s] copying model/patok_anoman/model.config -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.422s] copying model/patok_anoman/model.sdf -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.466s] copying model/patok_durna/model.config -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.511s] copying model/patok_durna/model.sdf -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.554s] copying model/patok_petruk/model.config -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.618s] copying model/patok_wayang1/model.config -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/model
+[5.820s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/rviz
+[5.833s] copying rviz/rviz.rviz -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/rviz
+[5.883s] copying rviz/turret_config.rviz -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/rviz
+[5.920s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[5.932s] copying meshes/ANOMAN.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[5.966s] copying meshes/anoman001a.jpg.002.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.000s] copying meshes/barrel.stl -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.045s] copying meshes/barrel2.stl -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.085s] copying meshes/burisrawa.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.131s] copying meshes/DURNA.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.165s] copying meshes/durna.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.198s] copying meshes/patok_wayang2_durna.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.229s] copying meshes/PETRUK.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.261s] copying meshes/petruk.jpg -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.298s] copying meshes/robot.stl -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.336s] copying meshes/sengkuni 450x620.png -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.384s] copying meshes/target_wayang.dae -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/meshes
+[6.412s] creating /root/ros2_ws/install/robot_shooter/share/robot_shooter/config
+[6.425s] copying config/shooter_controllers.yaml -> /root/ros2_ws/install/robot_shooter/share/robot_shooter/config
+[6.450s] running install_egg_info
+[6.474s] Copying ../../build/robot_shooter/robot_shooter.egg-info to /root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages/robot_shooter-0.0.0-py3.10.egg-info
+[6.812s] running install_scripts
+[6.917s] Installing camera_capture script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.931s] Installing first_node script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.946s] Installing image_pub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.970s] Installing image_sub script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[6.987s] Installing listener script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[7.002s] Installing sender script to /root/ros2_ws/install/robot_shooter/lib/robot_shooter
+[7.019s] writing list of installed files to '/root/ros2_ws/build/robot_shooter/install.log'
+[7.058s] Invoked command in '/root/ros2_ws/src/robot_shooter' returned '0': PYTHONPATH=/root/ros2_ws/build/robot_shooter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/robot_shooter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_shooter build --build-base /root/ros2_ws/build/robot_shooter/build install --record /root/ros2_ws/build/robot_shooter/install.log --single-version-externally-managed install_data
